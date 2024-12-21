@@ -66,7 +66,7 @@ public class Event implements Listener {
                     }
                     else {
                         if (plugin.getRegionSpawn(regionData) != null) {
-                            player.teleport(Objects.requireNonNull(plugin.getRegionSpawn(regionData.toString())));
+                            player.teleport(Objects.requireNonNull(plugin.getRegionSpawn(regionData)));
                         }
                         else {
                             player.teleport(safeLocation);
