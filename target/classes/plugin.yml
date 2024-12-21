@@ -1,0 +1,8 @@
+name: rSpawn
+version: '1.0'
+main: my.reqqpe.rspawn.Main
+api-version: '1.16'
+authors: [reqqpe]
+commands:
+  rspawn:
+  spawn:
